@@ -13,7 +13,7 @@ export default function Home() {
   const contract = getContract({
     client: client,
     chain: defineChain(baseSepolia),
-    address: "0x264c5Fd8F488f3D6ed899C455a778ce8D46a9750"
+    address: "0xFfad5A63E1Ed90DaC920A11340f9DfBc0ed3d3ee"
   })
 
   const {data: nft, isLoading: nftIsLoading} = useReadContract(
@@ -70,7 +70,7 @@ export default function Home() {
                 </>
               ) : (
                 <p className="text-center mt-8">
-                  Connect a wallet to claim your NFT
+                  Connect a wallet to claim your free ATL5D NFT
                 </p>
               )}
             </>
