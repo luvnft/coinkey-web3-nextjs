@@ -70,7 +70,7 @@ export default function Home() {
                 </>
               ) : (
                 <p className="text-center mt-8">
-                  Connect a wallet to claim your free ATL5D NFT
+                  Connect a wallet to claim free $ATL B🍑🍑ty
                 </p>
               )}
             </>
